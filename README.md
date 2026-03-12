@@ -2,6 +2,8 @@
 
 Writing-focused personal skills for Claude Code and ClawHub.
 
+English | [中文](./README.zh.md)
+
 Repository: `github.com/liujuntao123/chaoren-skills`
 
 ## Structure
