@@ -1,0 +1,23 @@
+{
+  "name": "chaoren-skills",
+  "owner": {
+    "name": "liujuntao",
+    "email": "liujuntao@chinamobile.com"
+  },
+  "metadata": {
+    "description": "Personal skills for publishing and automation workflows",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "chaoren-skills",
+      "description": "Personal skills published from the chaoren-skills repository",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/publish-my-skills"
+      ]
+    }
+  ]
+}
+
