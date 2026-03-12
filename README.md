@@ -1,6 +1,8 @@
 # chaoren-skills
 
-Personal skills repository for Claude Code marketplace installs and ClawHub publishing.
+Writing-focused personal skills for Claude Code and ClawHub.
+
+Repository: `github.com/liujuntao123/chaoren-skills`
 
 ## Structure
 
@@ -11,22 +13,40 @@ Personal skills repository for Claude Code marketplace installs and ClawHub publ
 
 ## Claude Code Installation
 
-After pushing this repository to GitHub:
+Install this repository as a marketplace in Claude Code:
 
 ```bash
-/plugin marketplace add <github-owner>/chaoren-skills
+/plugin marketplace add liujuntao123/chaoren-skills
 /plugin install chaoren-skills@chaoren-skills
 ```
 
+This installs the plugin bundle defined in `.claude-plugin/marketplace.json`.
+
 ## ClawHub Installation
 
-After publishing a skill to ClawHub:
+These skills are already published on ClawHub:
 
 ```bash
 clawhub install article-rewriter
+clawhub install content-goldmine
+clawhub install writing-polish
 ```
 
-## Publishing
+## Available Skills
+
+<!-- skill-list:start -->
+- `article-rewriter`
+- `content-goldmine`
+- `writing-polish`
+<!-- skill-list:end -->
+
+- `article-rewriter`: rewrite and restructure articles, newsletters, threads, scripts, landing pages, and rough notes
+- `content-goldmine`: analyze strong articles and extract reusable writing structures and idea blocks
+- `writing-polish`: polish Chinese writing, improve fluency, focus, tone, and wording
+
+## Publishing To ClawHub
+
+This repository uses the local sync script to publish only `~/chaoren-skills/skills`, which avoids accidentally uploading unrelated skills from other local OpenClaw directories.
 
 Log in first:
 
@@ -34,22 +54,20 @@ Log in first:
 clawhub login
 ```
 
-Then publish all changed skills in this repo:
-
-```bash
-./scripts/sync-clawhub.sh --all
-```
-
-Preview without uploading:
+Preview what would be uploaded:
 
 ```bash
 ./scripts/sync-clawhub.sh --dry-run
 ```
 
-## Included Skills
+Publish all new or changed skills in this repo:
 
-<!-- skill-list:start -->
-- `article-rewriter`
-- `content-goldmine`
-- `writing-polish`
-<!-- skill-list:end -->
+```bash
+./scripts/sync-clawhub.sh --all
+```
+
+Publish with a changelog and explicit version bump:
+
+```bash
+./scripts/sync-clawhub.sh --all --bump patch --changelog "Update skill docs"
+```
