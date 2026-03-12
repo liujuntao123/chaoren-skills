@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Personal skills for publishing and automation workflows",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   "plugins": [
     {
@@ -15,9 +15,9 @@
       "source": "./",
       "strict": false,
       "skills": [
+        "./skills/gh-cli",
         "./skills/publish-my-skills"
       ]
     }
   ]
 }
-

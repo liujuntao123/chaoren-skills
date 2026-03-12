@@ -49,6 +49,7 @@ Preview without uploading:
 ## Included Skills
 
 <!-- skill-list:start -->
+- `gh-cli`
 - `publish-my-skills`
 <!-- skill-list:end -->
 
