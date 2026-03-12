@@ -23,7 +23,7 @@ After pushing this repository to GitHub:
 After publishing a skill to ClawHub:
 
 ```bash
-clawhub install publish-my-skills
+clawhub install article-rewriter
 ```
 
 ## Publishing
@@ -49,7 +49,7 @@ Preview without uploading:
 ## Included Skills
 
 <!-- skill-list:start -->
-- `gh-cli`
-- `publish-my-skills`
+- `article-rewriter`
+- `content-goldmine`
+- `writing-polish`
 <!-- skill-list:end -->
-

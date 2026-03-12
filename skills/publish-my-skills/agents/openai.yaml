@@ -1,8 +1,0 @@
-interface:
-  display_name: "Publish My Skills"
-  short_description: "迁移本地 skills 到仓库并完成提交与发布"
-  default_prompt: "Use $publish-my-skills to sync selected skills from ~/.agents/skills into ~/chaoren-skills, clean the bundle, commit the repo, and optionally publish the selected skills to ClawHub."
-
-policy:
-  allow_implicit_invocation: true
-
