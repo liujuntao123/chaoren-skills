@@ -38,6 +38,7 @@ clawhub install writing-polish
 
 <!-- skill-list:start -->
 - `article-rewriter`
+- `auto-free-banana`
 - `content-goldmine`
 - `writing-polish`
 <!-- skill-list:end -->

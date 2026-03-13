@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Personal skills for publishing and automation workflows",
-    "version": "0.1.2"
+    "version": "0.1.3"
   },
   "plugins": [
     {
@@ -16,6 +16,7 @@
       "strict": false,
       "skills": [
         "./skills/article-rewriter",
+        "./skills/auto-free-banana",
         "./skills/content-goldmine",
         "./skills/writing-polish"
       ]
