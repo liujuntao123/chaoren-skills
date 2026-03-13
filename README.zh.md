@@ -47,10 +47,10 @@ clawhub install writing-polish
 <!-- skill-list:end -->
 
 <!-- skill-descriptions:start -->
-- `article-rewriter`： 改写与重构文章、Newsletter、线程、脚本、销售页和零散笔记
-- `auto-free-banana`： 通过浏览器 UI 自动化在 Google Flow 里生成图片，支持 Nano Banana 2/Pro 和横竖版比例
-- `content-goldmine`： 拆解优质文章，提取可复用的写作结构与创意积木
-- `writing-polish`： 润色中文写作，优化流畅度、重点、语气和措辞
+- `article-rewriter`：改写与重构文章、Newsletter、线程、脚本、销售页和零散笔记
+- `auto-free-banana`：通过浏览器 UI 自动化在 Google Flow 里生成图片，支持 Nano Banana 2/Pro 和横竖版比例
+- `content-goldmine`：拆解优质文章，提取可复用的写作结构与创意积木
+- `writing-polish`：润色中文写作，优化流畅度、重点、语气和措辞
 <!-- skill-descriptions:end -->
 
 ## 发布到 ClawHub
