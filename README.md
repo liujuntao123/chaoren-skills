@@ -40,18 +40,11 @@ clawhub install writing-polish
 ## Available Skills
 
 <!-- skill-list:start -->
-- `article-rewriter`
-- `auto-free-banana`
-- `content-goldmine`
-- `writing-polish`
-<!-- skill-list:end -->
-
-<!-- skill-descriptions:start -->
 - `article-rewriter`: rewrite and restructure articles, newsletters, threads, scripts, landing pages, and rough notes
 - `auto-free-banana`: generate images in Google Flow through browser UI automation with Nano Banana 2/Pro and landscape/portrait support
 - `content-goldmine`: analyze strong articles and extract reusable writing structures and idea blocks
 - `writing-polish`: polish Chinese writing, improve fluency, focus, tone, and wording
-<!-- skill-descriptions:end -->
+<!-- skill-list:end -->
 
 ## Publishing To ClawHub
 
