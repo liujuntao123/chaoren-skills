@@ -29,9 +29,12 @@ This installs the plugin bundle defined in `.claude-plugin/marketplace.json`.
 These skills are already published on ClawHub:
 
 ```bash
+<!-- clawhub-install:start -->
 clawhub install article-rewriter
+clawhub install auto-free-banana
 clawhub install content-goldmine
 clawhub install writing-polish
+<!-- clawhub-install:end -->
 ```
 
 ## Available Skills
@@ -43,9 +46,12 @@ clawhub install writing-polish
 - `writing-polish`
 <!-- skill-list:end -->
 
+<!-- skill-descriptions:start -->
 - `article-rewriter`: rewrite and restructure articles, newsletters, threads, scripts, landing pages, and rough notes
+- `auto-free-banana`: generate images in Google Flow through browser UI automation with Nano Banana 2/Pro and landscape/portrait support
 - `content-goldmine`: analyze strong articles and extract reusable writing structures and idea blocks
 - `writing-polish`: polish Chinese writing, improve fluency, focus, tone, and wording
+<!-- skill-descriptions:end -->
 
 ## Publishing To ClawHub
 
