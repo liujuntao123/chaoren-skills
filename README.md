@@ -33,6 +33,7 @@ These skills are already published on ClawHub:
 clawhub install article-rewriter
 clawhub install auto-free-banana
 clawhub install content-goldmine
+clawhub install epub2md-cli
 clawhub install writing-polish
 <!-- clawhub-install:end -->
 ```
@@ -43,6 +44,7 @@ clawhub install writing-polish
 - `article-rewriter`: rewrite and restructure articles, newsletters, threads, scripts, landing pages, and rough notes
 - `auto-free-banana`: generate images in Google Flow through browser UI automation with Nano Banana 2/Pro and landscape/portrait support
 - `content-goldmine`: analyze strong articles and extract reusable writing structures and idea blocks
+- `epub2md-cli`: Use the local `epub2md` CLI to inspect EPUB files and convert them into Markdown. Make sure to use this whenever the user mentions `.epub` files, EPUB 转 Markdown、电子书章节导出、合并章节为单个 Markdown、下载或本地化 EPUB 中的远程图片、查看书籍信息/目录/章节结构、或解压 EPUB 内容，即使用户没有明确说出 `epub2md`
 - `writing-polish`: polish Chinese writing, improve fluency, focus, tone, and wording
 <!-- skill-list:end -->
 

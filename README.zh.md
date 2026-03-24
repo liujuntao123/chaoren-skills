@@ -33,6 +33,7 @@
 clawhub install article-rewriter
 clawhub install auto-free-banana
 clawhub install content-goldmine
+clawhub install epub2md-cli
 clawhub install writing-polish
 <!-- clawhub-install:end -->
 ```
@@ -43,6 +44,7 @@ clawhub install writing-polish
 - `article-rewriter`：改写与重构文章、Newsletter、线程、脚本、销售页和零散笔记
 - `auto-free-banana`：通过浏览器 UI 自动化在 Google Flow 里生成图片，支持 Nano Banana 2/Pro 和横竖版比例
 - `content-goldmine`：拆解优质文章，提取可复用的写作结构与创意积木
+- `epub2md-cli`：Use the local `epub2md` CLI to inspect EPUB files and convert them into Markdown. Make sure to use this whenever the user mentions `.epub` files, EPUB 转 Markdown、电子书章节导出、合并章节为单个 Markdown、下载或本地化 EPUB 中的远程图片、查看书籍信息/目录/章节结构、或解压 EPUB 内容，即使用户没有明确说出 `epub2md`
 - `writing-polish`：润色中文写作，优化流畅度、重点、语气和措辞
 <!-- skill-list:end -->
 
